@@ -1,0 +1,64 @@
+body {
+    background-color: #e0dfdd;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    margin: 0px;
+    padding: 0px;
+}
+
+.head {
+    font-weight: bold;
+    text-align: left;
+}
+
+.title {
+    font-weight: bold;
+    padding: 3%;
+    text-align: left;
+}
+
+.title_text {
+    font-size: 75px;
+}
+
+.down {
+    padding: 0px;
+}
+
+.text {
+    position: relative;
+    bottom: 0px;
+}
+
+.des {
+    position: relative;
+    top: 100%;
+    text-align: left;
+}
+
+.auth {
+    background-color: black;
+    height: 50%;
+    width: 1270px;
+}
+
+.author {
+    max-width: 75%;
+    height: auto;
+}
+
+#arrow {
+    max-width: 35%;
+    height: auto;
+    position: relative;
+    top: 100%;
+    transition: transform 0.5s;
+}
+#arrow:hover{
+    transform: rotate(360deg);
+}
